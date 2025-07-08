@@ -125,7 +125,7 @@ export default function UrlShortenerForm() {
                 <a href={res.shortUrl}>{res.shortUrl}</a>
               </Typography>
               <Typography>
-                <strong>Expires At:</strong> {res.expiresAt}
+                <strong>Expires At::</strong> {res.expiresAt}
               </Typography>
             </Paper>
           ))}
